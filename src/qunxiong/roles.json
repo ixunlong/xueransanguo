@@ -282,7 +282,7 @@
         "setup": false,
         "name": "公孙瓒",
         "team": "outsider",
-        "ability": "你死亡时，一名随机的处于存活状态的三英或五虎先中毒后死亡。"
+        "ability": "公布你死讯时，一名随机的处于存活状态的三英或五虎中毒并死亡。"
     },
     {
         "id": "zhulu_zhouyu",
