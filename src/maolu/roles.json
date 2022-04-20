@@ -140,7 +140,7 @@
         "edition": "初出茅庐",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0,
+        "otherNight": 43,
         "otherNightReminder": "为其选择的玩家添加急智标记，含义是如果目标当晚死亡则其天亮才会失去技能。",
         "reminders": [],
         "remindersGlobal": [],
