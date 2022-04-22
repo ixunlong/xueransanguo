@@ -1,5 +1,11 @@
 [
     {
+        "id": "_meta",
+        "name": "血染三国之群雄逐鹿",
+        "author": "血染书局",
+        "almanac": "https://github.com/ixunlong/xueransanguo"
+    },
+    {
         "id": "zhulu_liubei",
         "image": "",
         "edition": "群雄逐鹿",
@@ -8,7 +14,9 @@
         "otherNight": 45,
         "otherNightReminder": "告知其选择的三个玩家里是否有三英或者五虎将。",
         "reminders": [],
-        "remindersGlobal": [],
+        "remindersGlobal": [
+            "免疫1次枭雄攻击"
+        ],
         "setup": false,
         "name": "刘备",
         "team": "townsfolk",
@@ -38,7 +46,9 @@
         "otherNight": 15,
         "otherNightReminder": "为其选择的玩家添加负伤标记。",
         "reminders": [],
-        "remindersGlobal": [],
+        "remindersGlobal": [
+            "负伤"
+        ],
         "setup": false,
         "name": "张飞",
         "team": "townsfolk",
@@ -157,7 +167,9 @@
         "firstNightReminder": "",
         "otherNight": 40,
         "otherNightReminder": "为其选择的玩家添加急智标记，含义是如果目标当晚死亡则其天亮才会失去技能。",
-        "reminders": [],
+        "reminders": [
+            "急智"
+        ],
         "remindersGlobal": [],
         "setup": false,
         "name": "黄月英",
@@ -217,7 +229,9 @@
         "firstNightReminder": "",
         "otherNight": 10,
         "otherNightReminder": "为其选择的玩家添加被治愈标记，含义是目标玩家今晚免疫所有负面状态，且移除已有的所有负面状态标记",
-        "reminders": [],
+        "reminders": [
+            "被治愈"
+        ],
         "remindersGlobal": [],
         "setup": false,
         "name": "张仲景",
@@ -233,7 +247,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
-        "remindersGlobal": [],
+        "remindersGlobal": [
+            "吕布"
+        ],
         "setup": true,
         "name": "吕布",
         "team": "outsider",
@@ -247,7 +263,9 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "刘表伪装"
+        ],
         "remindersGlobal": [],
         "setup": false,
         "name": "刘表",
@@ -292,7 +310,9 @@
         "firstNightReminder": "为其选择的两名玩家添加被反间标记，含义是若目标玩家被处决，则一名随机的豪杰随之死亡。",
         "otherNight": 25,
         "otherNightReminder": "为其选择的两名玩家添加被反间标记，含义是若目标玩家被处决，则一名随机的豪杰随之死亡。",
-        "reminders": [],
+        "reminders": [
+            "反间"
+        ],
         "remindersGlobal": [],
         "setup": false,
         "name": "周瑜",
@@ -308,7 +328,9 @@
         "otherNight": 30,
         "otherNightReminder": "为其选择的玩家添加中毒标记。",
         "reminders": [],
-        "remindersGlobal": [],
+        "remindersGlobal": [
+            "中毒"
+        ],
         "setup": false,
         "name": "贾诩",
         "team": "minion",
@@ -337,7 +359,9 @@
         "firstNightReminder": "为其添加伪装标记，伪装为随机的不在场的佳人",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": [
+            "甄宓伪装"
+        ],
         "remindersGlobal": [],
         "setup": false,
         "name": "甄宓",
@@ -352,7 +376,9 @@
         "firstNightReminder": "",
         "otherNight": 35,
         "otherNightReminder": "为被其杀死的玩家添加死亡标记。曹丕杀死逆臣时，为其添加获得其技能的标记。",
-        "reminders": [],
+        "reminders": [
+            "曹丕获得技能"
+        ],
         "remindersGlobal": [],
         "setup": true,
         "name": "曹丕",
@@ -372,7 +398,7 @@
         "setup": false,
         "name": "曹操",
         "team": "demon",
-        "ability": "诸侯+1。死亡时，随机一名逆臣失去技能变为新曹操。*每天晚上出一刀。典韦存活时，新曹操保留原逆臣技能。"
+        "ability": "诸侯+1。死亡时，随机一名逆臣失去技能变为新曹操，整局限一次。*每天晚上出一刀。典韦存活时，新曹操保留原逆臣技能。"
     },
     {
         "id": "zhulu_sunce",
@@ -398,7 +424,9 @@
         "otherNight": 35,
         "otherNightReminder": "为被其杀死的玩家添加死亡标记，为与目标距离最近的豪杰添加醉酒标记（无论是否存活），注意次近的豪杰是否醉酒。",
         "reminders": [],
-        "remindersGlobal": [],
+        "remindersGlobal": [
+            "醉酒"
+        ],
         "setup": false,
         "name": "董卓",
         "team": "demon",
@@ -412,11 +440,22 @@
         "firstNightReminder": "为其添加伪装标记，伪装为其选择的枭雄眼里的豪杰",
         "otherNight": 35,
         "otherNightReminder": "为被其杀死的玩家添加死亡标记。",
-        "reminders": [],
+        "reminders": [
+            "袁绍伪装"
+        ],
         "remindersGlobal": [],
         "setup": false,
         "name": "袁绍",
         "team": "demon",
         "ability": "枭雄眼+2。你伪装为一名枭雄眼里的你指定的身份。*每天晚上可出一刀。甄宓存活时，你可以使用该身份的技能，但你不能使用其羁绊技能。"
+    },
+    {
+        "id": "zhulu_lengend",
+        "image": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "name": "血染三国之群雄逐鹿",
+        "team": "fabled",
+        "ability": "血染三国暂不支持传奇角色"
     }
 ]

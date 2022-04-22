@@ -1,5 +1,11 @@
 [
     {
+        "id": "_meta",
+        "name": "血染三国之初出茅庐",
+        "author": "血染书局",
+        "almanac": "https://github.com/ixunlong/xueransanguo"
+    },
+    {
         "id": "maolu_liubei",
         "image": "",
         "edition": "初出茅庐",
